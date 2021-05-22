@@ -38,21 +38,28 @@ body {
     transition: all 0.5s ease-in-out;
 }
 
-.auburndale {
+.brooklyn {
     text-align: center;
     flex-basis: 48%;
     display: none;
     transition: all 0.5s ease-in-out;
 }
 
-.laurelton {
+.bronx {
     text-align: center;
     flex-basis: 48%;
     display: none;
     transition: all 0.5s ease-in-out;
 }
 
-.long {
+.manhattan {
+    text-align: center;
+    flex-basis: 48%;
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.queens {
     text-align: center;
     flex-basis: 48%;
     display: none;
@@ -63,15 +70,19 @@ body {
     display: block;
 }
 
-.auburndale.active {
+.brooklyn.active {
     display: block;
 }
 
-.laurelton.active {
+.bronx.active {
     display: block;
 }
 
-.long.active {
+.manhattan.active {
+    display: block;
+}
+
+.queens.active {
     display: block;
 }
 
